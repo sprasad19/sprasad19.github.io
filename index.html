@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+
+    <title> Jobs in Banglore</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link type="text/css" rel="stylesheet" media="screen" href="./dist/css/bootstrap.css" />
+
+    <link type="text/css" rel="stylesheet" media="screen" href="./fontawsome/css/all.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="./dist/jquery-3.3.1.js"></script>
+    <script src="./fontawsome/js/all.js"></script>
+    <script src="main.js"></script>
+    <script src="./dist/js/bootstrap.js"></script>
+
+
+
+</head>
+
+<body>
+    <div class="my-bg-notice">
+        <div class="container">
+            <div class="col-md-6 col-sm-12  col-xs-12 text-white">
+                <i class="far fa-clock "></i> Working Hours: Mon - Sat : 6.00 am -
+                10.00 pm, Sunday Closed
+            </div>
+            <div class="col-md-6 col-sm-12 col-xs-12 text-white">
+                <div class="list-inline pull-right flip  ">
+                    <li>
+                        <i class="fa fa-phone text-white"></i> Call Us at
+                        <a href="" class="text-white main_link"> +91 - 8018162756</a>
+                    </li>
+                    <li>
+                        <i class="fa fa-envelope"></i> contact@firstenquiry.com
+                    </li>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- notoice-->
+    <nav class="navbar navbar-default sticky">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#navbarcollapse" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="./index.html"><img src="./static/logo.png"></a>
+            </div>
+
+
+            <div class="collapse navbar-collapse" id="navbarcollapse">
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="./index.html"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="./postjob.html"><i class="fas fa-suitcase"></i> Post Job</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" type="button" role="button"
+                            aria-haspopup="true" aria-expanded="false"><i class="fas fa-cogs"></i> Services
+                            <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="./resumebuilding.html">Resume
+                                    Building</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="./hireresouce.html">Hire
+                                    Resouses</a></li>
+
+                        </ul>
+                    </li>
+                    <li><a href="./signup.html"><i class="fas fa-user-plus"></i> Post Resume</a></li>
+                    <li><a href="./signin.html"><i class="fas fa-lock"></i> Sign In</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    <div class="clear"></div>
+    <!-- navend -->
+    <div class="jumbotron jumbotronimg ">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-1 col-sm-12 col-xs-12"></div>
+                <!-- end -->
+                <div class="col-md-5 col-sm-12 col-xs-12">
+                    <div class="text-left">
+                        <label class="form-group">
+                            <h2>
+                                What
+                            </h2>
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <em>
+                            Job title,keywords or company
+                        </em>
+                        <input class="form-control input-lg" type="text" placeholder="Job title, keywords">
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                    <div class="text-left">
+                        <label class="form-group">
+                            <h2>
+                                Where
+                            </h2>
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <em>
+                            city, location name
+                        </em>
+                        <input class="form-control input-lg" type="text" placeholder="city, location name">
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-12 col-xs-12">
+                    <div id="searchbtn" class="text-center">
+                        <button type="button" class="btn btn-warning btn-lg text-center"><i class="fa fa-search"></i>
+                            Find</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div> <!-- banner -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-12">
+
+                <h2 class="fontw8 text-left "><span class="text-primary"> Register Ur </span>
+                    Profile</h2>
+
+                <div class="form-group">
+                    <form method="">
+                        <div class="form1">
+                            <div class="form-group">
+                                <label>Full Name</label>
+                                <input class="form-control" type="text">
+                            </div>
+                            <div class="form-group">
+                                <label>Mobile</label>
+                                <input class="form-control" type="text">
+                            </div>
+                            <div class="form-group">
+                                <label>Email</label>
+                                <input class="form-control" type="email">
+                            </div>
+                            <div class="form-group">
+                                <label>Password</label>
+                                <input class="form-control" type="password">
+                                <i>password min 5 character</i>
+                            </div>
+                            <div class="form-group">
+                                <label>Confirm Password</label>
+                                <input class="form-control" type="password">
+                                <i>Confirmpassword min 5 character</i>
+                            </div>
+                            <div class="form-group text-center">
+                                <button type="button" class="btn btn-warning">Register</button>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+            <!-- register form end -->
+            <div class="col-md-9 col-sm-12">
+                <div class="row">
+                    <p class="text-left">
+                        <h2 class="fontw8 " style="margin-left: 20px;"><span class="text-primary"> Our
+                                Recruitment</span>
+                            Service's
+                        </h2>
+                    </p><br><br>
+                    <div class="text-center form-group">
+                        <div class=" col-md-3 col-sm-6 col-xs-12 form-group ">
+                            <a href="#" class="">
+                                <i class="fa fa-user-plus fa-5x " style="color:#0098ca;"></i>
+                                <h6>Upload Resume</h6>
+                                <i>For Job seeker</i>
+                            </a>
+                        </div>
+
+                        <div class=" col-md-3 col-sm-6 col-xs-12 form-group">
+                            <a href="#">
+                                <i class="fas fa-file  fa-5x " style="color:orange;"></i>
+                                <h6>Resume building</h6>
+                                <i>For Job seeker</i>
+                            </a>
+                        </div>
+
+                        <div class="col-xs-12  col-md-3 col-sm-6  form-group">
+                            <a href="#">
+                                <i class="fa fa-folder-plus  fa-5x " style="color:orange;"></i>
+                                <h6>Post </h6>
+                                <i>For Employeer</i>
+                            </a>
+                        </div>
+
+                        <div class="col-lg-3 col-xs-12  col-md-3 col-sm-6  form-group">
+                            <a href="#">
+                                <i class="fa fa-search  fa-5x " style="color:blue;"></i>
+                                <h6>Find Resumes </h6>
+                                <i>For Employeer</i>
+                            </a>
+                        </div>
+                    </div>
+                    <br>
+
+                    <div class="col-xs-12 col-sm-12 col-md-12">
+                        <p class="text-left">
+                            <h2 class="fontw8 "><span class="text-primary"> Abailable </span>Job's
+                            </h2>
+                        </p>
+
+                    </div>
+                    <br>
+                    <br>
+                    <ul class="list-unstyled text-left smalll sm-text-center mymargin">
+                        <li class="text-primary col-md-3 col-sm-6"><i class="fas fa-caret-right"></i>
+                            <a href="" class="nounderline">3D Graphic
+                                Designer </a></li>
+                        <li class="text-primary col-md-3 col-sm-6"><i class="fas fa-caret-right"></i>
+                            <a href="" class="nounderline">HR Executive </a></li>
+                        <li class="text-primary col-md-3 col-sm-6"><i class="fas fa-caret-right"></i>
+                            <a href="" class="nounderline">Java Developer </a></li>
+                        <li class="text-primary col-md-3 col-sm-6"><i class="fas fa-caret-right"></i>
+                            <a href="" class="nounderline">Mobile Application Developer </a>
+                        </li>
+                        <li class="text-primary col-md-3 col-sm-6"><i class="fas fa-caret-right"></i>
+                            <a href="" class="nounderline">Senior Developer </a></li>
+                        <li class="text-primary col-md-3 col-sm-6"><i class="fas fa-caret-right"></i>
+                            <a href="" class="nounderline">Senior Programmer </a></li>
+                        <li class="text-primary col-md-3 col-sm-6"><i class="fas fa-caret-right"></i>
+                            <a href="" class="nounderline">Senior Web Developer </a></li>
+                        <li class="text-primary col-md-3 col-sm-6"><i class="fas fa-caret-right"></i>
+                            <a href="" class="nounderline">Software Engineer </a></li>
+                        <li class="text-primary col-md-3 col-sm-6"><i class="fas fa-caret-right"></i>
+                            <a href="" class="nounderline">Web Designer </a></li>
+                        <li class="text-primary col-md-3 col-sm-6"><i class="fas fa-caret-right"></i>
+                            <a href="" class="nounderline">Website Designer </a></li>
+                        <li class="text-primary col-md-3 col-sm-6"><i class="fas fa-caret-right"></i>
+                            <a href="" class="nounderline">ABAP Programmer </a></li>
+                        <li class="text-primary col-md-3 col-sm-6"><i class="fas fa-caret-right"></i>
+                            <a href="" class="nounderline">HTML Developer </a></li>
+                        <li class="text-primary col-md-3 col-sm-6"><i class="fas fa-caret-right"></i>
+                            <a href="" class="nounderline">Java Programmer </a></li>
+                        <li class="text-primary col-md-3 col-sm-6"><i class="fas fa-caret-right"></i>
+                            <a href="" class="nounderline">PHP Programmer </a></li>
+                        <li class="text-primary col-md-3 col-sm-6"><i class="fas fa-caret-right"></i>
+                            <a href="" class="nounderline">Placement Officer </a></li>
+                        <li class="text-primary col-md-3 col-sm-6"><i class="fas fa-caret-right"></i>
+                            <a href="" class="nounderline">Senior Java Developer </a></li>
+                        <li class="text-primary col-md-3 col-sm-6"><i class="fas fa-caret-right"></i>
+                            <a href="" class="nounderline">Senior Sales Executive </a></li>
+                        <li class="text-primary col-md-3 col-sm-6"><i class="fas fa-caret-right"></i>
+                            <a href="" class="nounderline">SEO Executive </a></li>
+                        <li class="text-primary col-md-3 col-sm-6"><i class="fas fa-caret-right"></i>
+                            <a href="" class="nounderline">Technical Writer </a></li>
+                        <li class="text-primary col-md-3 col-sm-6"><i class="fas fa-caret-right"></i>
+                            <a href="" class="nounderline">Web Developer </a></li>
+                        <li class="text-primary col-md-3 col-sm-6"><i class="fas fa-caret-right"></i>
+                            <a href="" class="nounderline">Website Developer </a></li>
+                        <li class="text-primary col-md-3 col-sm-6"><i class="fas fa-caret-right"></i>
+                            <a href="" class="nounderline">Business Development Officer </a>
+                        </li>
+                        <li class="text-primary col-md-3 col-sm-6"><i class="fas fa-caret-right"></i>
+                            <a href="" class="nounderline">J2EE Developer </a></li>
+                        <li class="text-primary col-md-3 col-sm-6"><i class="fas fa-caret-right"></i>
+                            <a href="" class="nounderline">Java/J2EE Developer </a></li>
+                        <li class="text-primary col-md-3 col-sm-6"><i class="fas fa-caret-right"></i>
+                            <a href="" class="nounderline">PL/SQL Developer </a></li>
+                        <li class="text-primary col-md-3 col-sm-6"><i class="fas fa-caret-right"></i>
+                            <a href="" class="nounderline">SAP ABAP Programmer </a></li>
+                        <li class="text-primary col-md-3 col-sm-6"><i class="fas fa-caret-right"></i>
+                            <a href="" class="nounderline">Senior Manager Marketing </a></li>
+                        <li class="text-primary col-md-3 col-sm-6"><i class="fas fa-caret-right"></i>
+                            <a href="" class="nounderline">Senior SEO Executive </a></li>
+                        <li class="text-primary col-md-3 col-sm-6"><i class="fas fa-caret-right"></i>
+                            <a href="" class="nounderline">SEO Manager </a></li>
+                        <li class="text-primary col-md-3 col-sm-6"><i class="fas fa-caret-right"></i>
+                            <a href="" class="nounderline">UI Designer </a></li>
+                        <li class="text-primary col-md-3 col-sm-6"><i class="fas fa-caret-right"></i>
+                            <a href="" class="nounderline">Web Developer Trainee </a></li>
+                        <li class="text-primary col-md-3 col-sm-6"><i class="fas fa-caret-right"></i>
+                            <a href="" class="nounderline">Dot Net Developer </a></li>
+                        <li class="text-primary col-md-3 col-sm-6"><i class="fas fa-caret-right"></i>
+                            <a href="" class="nounderline">HR Consultant </a></li>
+                        <li class="text-primary col-md-3 col-sm-6"><i class="fas fa-caret-right"></i>
+                            <a href="" class="nounderline">J2EE Programmer </a></li>
+                        <li class="text-primary col-md-3 col-sm-6"><i class="fas fa-caret-right"></i>
+                            <a href="" class="nounderline">Junior Software Developer </a></li>
+                        <li class="text-primary col-md-3 col-sm-6"><i class="fas fa-caret-right"></i>
+                            <a href="" class="nounderline">PL/SQL Programmer </a></li>
+                        <li class="text-primary col-md-3 col-sm-6"><i class="fas fa-caret-right"></i>
+                            <a href="" class="nounderline">SAP Consultant </a></li>
+                        <li class="text-primary col-md-3 col-sm-6"><i class="fas fa-caret-right"></i>
+                            <a href="" class="nounderline">Senior PHP Programmer </a></li>
+                        <li class="text-primary col-md-3 col-sm-6"><i class="fas fa-caret-right"></i>
+                            <a href="" class="nounderline">Senior Web Designer </a></li>
+                        <li class="text-primary col-md-3 col-sm-6"><i class="fas fa-caret-right"></i>
+                            <a href="" class="nounderline">Software Developer </a></li>
+                        <li class="text-primary col-md-3 col-sm-6"><i class="fas fa-caret-right"></i>
+                            <a href="" class="nounderline">UI Developer </a></li>
+                        <li class="text-primary col-md-3 col-sm-6"><i class="fas fa-caret-right"></i>
+                            <a href="" class="nounderline">Web Programmer </a></li>
+                    </ul>
+                </div>
+                <!-- icon row end -->
+            </div>
+        </div>
+    </div>
+    <!-- container of profile and services -->
+
+    <div class="jumbotron jumbotron-shadow" style="margin-top: 50px;">
+        <div class="container  container2 text-center">
+            <div class=" col-sm-4 col-md-4 col-xs-12 container2">
+                <i class="fa fa-suitcase fa-3x fa-pull-left fa-border" style="color: #0098ca"></i>
+                <h3 class="fontw2"><span class="text-primary">30000 + Jobs</span> Available</h3>
+            </div>
+            <div class=" col-sm-4 col-md-4 col-xs-12 container2">
+                <i class="fa fa fa-building fa-3x fa-pull-left fa-border" style="color: #0098ca"></i>
+                <h3 class="fontw2"><span class="text-primary">978 + Companies</span> For Hire
+                </h3>
+            </div>
+            <div class=" col-sm-4 col-md-4 col-xs-12 container2">
+                <i class="fa fa-users fa-3x fa-pull-left fa-border" style="color: #0098ca"></i>
+                <h3 class="fontw2"><span class="text-primary">1400000 </span> + Resumes</h3>
+            </div>
+        </div>
+    </div>
+    <!-- jumbotronn end -->
+    <footer class="footer" style="box-shadow: 0px 2px 15px red;">
+        <div class="container">
+            <div class="data1">
+                <div class="col-sm-12 col-md-12">
+                    <div class="row " style="margin-bottom:15px;">
+                        <div class="col-sm-12 col-md-12">
+                            <ul class="list-unstyled text-left sm-text-center  mymargin">
+                                <li class="text-white col-md-3 col-sm-6"><i class="fas fa-caret-right"
+                                        style="color:#9C9B9C;"></i>
+                                    <a href="" class="nounderline" style="color:#A1A0A1;"> Zonal
+                                        Security Officer
+                                        Jobs</a></li>
+                                <li class="text-white col-md-3 col-sm-6"><i class="fas fa-caret-right"
+                                        style="color:#9C9B9C;"></i>
+                                    <a href="" class="nounderline" style="color:#A1A0A1;">
+                                        Writer Jobs</a></li>
+                                <li class="text-white col-md-3 col-sm-6"><i class="fas fa-caret-right"
+                                        style="color:#9C9B9C;"></i>
+                                    <a href="" class="nounderline" style="color:#A1A0A1;">
+                                        Welding Engineer Jobs</a>
+                                </li>
+                                <li class="text-white col-md-3 col-sm-6"><i class="fas fa-caret-right"
+                                        style="color:#9C9B9C;"></i>
+                                    <a href="" class="nounderline" style="color:#A1A0A1;"> Web
+                                        Designer Jobs</a></li>
+                                <li class="text-white col-md-3 col-sm-6"><i class="fas fa-caret-right"
+                                        style="color:#9C9B9C;"></i>
+                                    <a href="" class="nounderline" style="color:#A1A0A1;">
+                                        Warehouse Manager Jobs</a>
+                                </li>
+                                <li class="text-white col-md-3 col-sm-6"><i class="fas fa-caret-right"
+                                        style="color:#9C9B9C;"></i>
+                                    <a href="" class="nounderline" style="color:#A1A0A1;"> VP
+                                        Operations Jobs</a></li>
+                                <li class="text-white col-md-3 col-sm-6"><i class="fas fa-caret-right"
+                                        style="color:#9C9B9C;"></i>
+                                    <a href="" class="nounderline" style="color:#A1A0A1;"> vp hr
+                                        Jobs</a></li>
+                                <li class="text-white col-md-3 col-sm-6"><i class="fas fa-caret-right"
+                                        style="color:#9C9B9C;"></i>
+                                    <a href="" class="nounderline" style="color:#A1A0A1;">
+                                        Visual Merchandiser Jobs</a>
+                                </li>
+                                <li class="text-white col-md-3 col-sm-6"><i class="fas fa-caret-right"
+                                        style="color:#9C9B9C;"></i>
+                                    <a href="" class="nounderline" style="color:#A1A0A1;"> Unix
+                                        Administrator Jobs</a>
+                                </li>
+                                <li class="text-white col-md-3 col-sm-6"><i class="fas fa-caret-right"
+                                        style="color:#9C9B9C;"></i>
+                                    <a href="" class="nounderline" style="color:#A1A0A1;"> TV
+                                        Anchor Jobs</a></li>
+                                <li class="text-white col-md-3 col-sm-6"><i class="fas fa-caret-right"
+                                        style="color:#9C9B9C;"></i>
+                                    <a href="" class="nounderline" style="color:#A1A0A1;"> Tour
+                                        Manager Jobs</a></li>
+                                <li class="text-white col-md-3 col-sm-6"><i class="fas fa-caret-right"
+                                        style="color:#9C9B9C;"></i>
+                                    <a href="" class="nounderline" style="color:#A1A0A1;">
+                                        Telecaller Jobs</a></li>
+                                <li class="text-white col-md-3 col-sm-6"><i class="fas fa-caret-right"
+                                        style="color:#9C9B9C;"></i>
+                                    <a href="" class="nounderline" style="color:#A1A0A1;"> Zonal
+                                        Head Jobs</a></li>
+                                <li class="text-white col-md-3 col-sm-6"><i class="fas fa-caret-right"
+                                        style="color:#9C9B9C;"></i>
+                                    <a href="" class="nounderline" style="color:#A1A0A1;">
+                                        Windows System Administrator
+                                        Jobs</a></li>
+                                <li class="text-white col-md-3 col-sm-6"><i class="fas fa-caret-right"
+                                        style="color:#9C9B9C;"></i>
+                                    <a href="" class="nounderline" style="color:#A1A0A1;">
+                                        Websphere Administrator
+                                        Jobs</a></li>
+                                <li class="text-white col-md-3 col-sm-6"><i class="fas fa-caret-right"
+                                        style="color:#9C9B9C;"></i>
+                                    <a href="" class="nounderline" style="color:#A1A0A1;"> Web
+                                        Programmer Jobs</a></li>
+                                <li class="text-white col-md-3 col-sm-6"><i class="fas fa-caret-right"
+                                        style="color:#9C9B9C;"></i>
+                                    <a href="" class="nounderline" style="color:#A1A0A1;"> Web
+                                        Analyst Jobs</a></li>
+                                <li class="text-white col-md-3 col-sm-6"><i class="fas fa-caret-right"
+                                        style="color:#9C9B9C;"></i>
+                                    <a href="" class="nounderline" style="color:#A1A0A1;">
+                                        Warehouse Executive Jobs</a>
+                                </li>
+                                <li class="text-white col-md-3 col-sm-6"><i class="fas fa-caret-right"
+                                        style="color:#9C9B9C;"></i>
+                                    <a href="" class="nounderline" style="color:#A1A0A1;"> VP
+                                        Marketing Jobs</a></li>
+                                <li class="text-white col-md-3 col-sm-6"><i class="fas fa-caret-right"
+                                        style="color:#9C9B9C;"></i>
+                                    <a href="" class="nounderline" style="color:#A1A0A1;"> VP
+                                        Finance Jobs</a></li>
+                                <li class="text-white col-md-3 col-sm-6"><i class="fas fa-caret-right"
+                                        style="color:#9C9B9C;"></i>
+                                    <a href="" class="nounderline" style="color:#A1A0A1;">
+                                        Visual Designer Jobs</a></li>
+                                <li class="text-white col-md-3 col-sm-6"><i class="fas fa-caret-right"
+                                        style="color:#9C9B9C;"></i>
+                                    <a href="" class="nounderline" style="color:#A1A0A1;"> UI
+                                        Developer Jobs</a></li>
+                                <li class="text-white col-md-3 col-sm-6"><i class="fas fa-caret-right"
+                                        style="color:#9C9B9C;"></i>
+                                    <a href="" class="nounderline" style="color:#A1A0A1;">
+                                        Travel Consultant Jobs</a>
+                                </li>
+                                <li class="text-white col-md-3 col-sm-6"><i class="fas fa-caret-right"
+                                        style="color:#9C9B9C;"></i>
+                                    <a href="" class="nounderline" style="color:#A1A0A1;">
+                                        Textile Designer Jobs</a>
+                                </li>
+                                <li class="text-white col-md-3 col-sm-6"><i class="fas fa-caret-right"
+                                        style="color:#9C9B9C;"></i>
+                                    <a href="" class="nounderline" style="color:#A1A0A1;">
+                                        Technician Jobs</a></li>
+                                <li class="text-white col-md-3 col-sm-6"><i class="fas fa-caret-right"
+                                        style="color:#9C9B9C;"></i>
+                                    <a href="" class="nounderline" style="color:#A1A0A1;"> Zonal
+                                        Business Manager Jobs
+                                    </a></li>
+                                <li class="text-white col-md-3 col-sm-6"><i class="fas fa-caret-right"
+                                        style="color:#9C9B9C;"></i>
+                                    <a href="" class="nounderline" style="color:#A1A0A1;">
+                                        Windows Administrator
+                                        Jobs</a></li>
+                                <li class="text-white col-md-3 col-sm-6"><i class="fas fa-caret-right"
+                                        style="color:#9C9B9C;"></i>
+                                    <a href="" class="nounderline" style="color:#A1A0A1;">
+                                        Website Developer Jobss</a>
+                                </li>
+                                <li class="text-white col-md-3 col-sm-6"><i class="fas fa-caret-right"
+                                        style="color:#9C9B9C;"></i>
+                                    <a href="" class="nounderline" style="color:#A1A0A1;"> Web
+                                        Developer Trainee
+                                        Jobs</a>
+                                </li>
+                                <li class="text-white col-md-3 col-sm-6"><i class="fas fa-caret-right"
+                                        style="color:#9C9B9C;"></i>
+                                    <a href="" class="nounderline" style="color:#A1A0A1;">
+                                        Warehouse Supervisor Jobs</a>
+                                </li>
+                                <li class="text-white col-md-3 col-sm-6"><i class="fas fa-caret-right"
+                                        style="color:#9C9B9C;"></i>
+                                    <a href="" class="nounderline" style="color:#A1A0A1;"> VP
+                                        Sales & Marketing Jobs</a>
+                                </li>
+                                <li class="text-white col-md-3 col-sm-6"><i class="fas fa-caret-right"
+                                        style="color:#9C9B9C;"></i>
+                                    <a href="" class="nounderline" style="color:#A1A0A1;"> VP IT
+                                        Jobs</a></li>
+                                <li class="text-white col-md-3 col-sm-6"><i class="fas fa-caret-right"
+                                        style="color:#9C9B9C;"></i>
+                                    <a href="" class="nounderline" style="color:#A1A0A1;"> vp
+                                        engineering Jobs</a></li>
+                                <li class="text-white col-md-3 col-sm-6"><i class="fas fa-caret-right"
+                                        style="color:#9C9B9C;"></i>
+                                    <a href="" class="nounderline" style="color:#A1A0A1;"> Video
+                                        Editor Jobs</a></li>
+                                <li class="text-white col-md-3 col-sm-6"><i class="fas fa-caret-right"
+                                        style="color:#9C9B9C;"></i>
+                                    <a href="" class="nounderline" style="color:#A1A0A1;"> UI
+                                        Designer Jobs</a></li>
+                                <li class="text-white col-md-3 col-sm-6"><i class="fas fa-caret-right"
+                                        style="color:#9C9B9C;"></i>
+                                    <a href="" class="nounderline" style="color:#A1A0A1;">
+                                        Translator Jobs</a></li>
+                                <li class="text-white col-md-3 col-sm-6"><i class="fas fa-caret-right"
+                                        style="color:#9C9B9C;"></i>
+                                    <a href="" class="nounderline" style="color:#A1A0A1;">
+                                        Testing Manager Jobs</a></li>
+                                <li class="text-white col-md-3 col-sm-6"><i class="fas fa-caret-right"
+                                        style="color:#9C9B9C;"></i>
+                                    <a href="" class="nounderline" style="color:#A1A0A1;"> Yoga
+                                        Teacher Jobs</a></li>
+                                <li class="text-white col-md-3 col-sm-6"><i class="fas fa-caret-right"
+                                        style="color:#9C9B9C;"></i>
+                                    <a href="" class="nounderline" style="color:#A1A0A1;">
+                                        Welfare Officer Jobs</a></li>
+                                <li class="text-white col-md-3 col-sm-6"><i class="fas fa-caret-right"
+                                        style="color:#9C9B9C;"></i>
+                                    <a href="" class="nounderline" style="color:#A1A0A1;">
+                                        Website Designer Jobs</a>
+                                </li>
+                                <li class="text-white col-md-3 col-sm-6"><i class="fas fa-caret-right"
+                                        style="color:#9C9B9C;"></i>
+                                    <a href="" class="nounderline" style="color:#A1A0A1;"> Web
+                                        Developer Jobs</a></li>
+                                <li class="text-white col-md-3 col-sm-6"><i class="fas fa-caret-right"
+                                        style="color:#9C9B9C;"></i>
+                                    <a href="" class="nounderline" style="color:#A1A0A1;">
+                                        Warehouse Officer Jobs</a>
+                                </li>
+                                <li class="text-white col-md-3 col-sm-6"><i class="fas fa-caret-right"
+                                        style="color:#9C9B9C;"></i>
+                                    <a href="" class="nounderline" style="color:#A1A0A1;"> VP
+                                        Sales Jobs</a></li>
+                                <li class="text-white col-md-3 col-sm-6"><i class="fas fa-caret-right"
+                                        style="color:#9C9B9C;"></i>
+                                    <a href="" class="nounderline" style="color:#A1A0A1;"> VP
+                                        Human Resources Jobs</a>
+                                </li>
+                                <li class="text-white col-md-3 col-sm-6"><i class="fas fa-caret-right"
+                                        style="color:#9C9B9C;"></i>
+                                    <a href="" class="nounderline" style="color:#A1A0A1;"> VLSI
+                                        Engineer Jobs</a></li>
+                                <li class="text-white col-md-3 col-sm-6"><i class="fas fa-caret-right"
+                                        style="color:#9C9B9C;"></i>
+                                    <a href="" class="nounderline" style="color:#A1A0A1;"> VB
+                                        Programmer Jobs</a></li>
+                                <li class="text-white col-md-3 col-sm-6"><i class="fas fa-caret-right"
+                                        style="color:#9C9B9C;"></i>
+                                    <a href="" class="nounderline" style="color:#A1A0A1;">
+                                        Typist Jobs</a></li>
+                                <li class="text-white col-md-3 col-sm-6"><i class="fas fa-caret-right"
+                                        style="color:#9C9B9C;"></i>
+                                    <a href="" class="nounderline" style="color:#A1A0A1;">
+                                        Trainer Jobs</a></li>
+                                <li class="text-white col-md-3 col-sm-6"><i class="fas fa-caret-right"
+                                        style="color:#9C9B9C;"></i>
+                                    <a href="" class="nounderline" style="color:#A1A0A1;">
+                                        Tester Jobs</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container footer-pad-mar">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <p class="sm-text-center2 text-left" style="color:white;">Copyright <i class="far fa-copyright"
+                                aria-hidden="true" style="color:aliceblue;"></i> 2019 <span
+                                class="text-muted">Firstenquiry.</span> All Rights Reserved </p>
+                    </div>
+                    <div class="col-md-6 text-right col-sm-6 text-center">
+                        <ul class="list-unstyled sm-text-center3">
+                            <li class="col-md-3 col-sm-4 col-xs-5 ">
+                                <a href="#" style=" color: turquoise; text-decoration: none; "
+                                    class="sm-text-center2"><i class="fa fa-sitemap " aria-hidden="true"></i>
+                                    Sitemap</a>
+                            </li>
+
+                            <li class="col-md-3 col-sm-4 col-xs-3">
+                                <a href="#" style="  color: turquoise; text-decoration: none; "
+                                    class="sm-text-center2"><i class="fas fa-question-circle"></i></i>
+                                    Help</a>
+                            </li>
+
+                            <li class="col-md-3  col-sm-4 col-xs-4">
+                                <a href="#" style="  color: turquoise; text-decoration: none; "><i
+                                        class="fas fa-headset"></i>
+                                    Support</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
